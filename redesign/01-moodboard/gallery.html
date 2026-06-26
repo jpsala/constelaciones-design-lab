@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Public Site Redesign Moodboard — First Pass</title>
+  <style>
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #f8f2e8; color: #332923; }
+    main { max-width: 1180px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: clamp(32px, 5vw, 64px); line-height: .95; letter-spacing: -.04em; margin: 0 0 12px; }
+    h2 { margin: 40px 0 16px; }
+    p { max-width: 760px; line-height: 1.5; color: #6d5a4a; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+    figure { margin: 0; background: #fffaf3; border: 1px solid rgba(51,41,35,.12); border-radius: 18px; overflow: hidden; }
+    img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+    figcaption { padding: 10px 12px 14px; font-weight: 850; font-size: 14px; }
+    .accepted figcaption { color: #4d6b4d; }
+    .rejected { opacity: .72; }
+    .rejected figcaption { color: #9a5b58; }
+    code { background: rgba(51,41,35,.08); padding: 2px 5px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Moodboard first pass</h1>
+    <p>Exploración descartable generada sin login para orientar gusto. No son assets finales. Ver <code>first-pass-review.md</code> para notas.</p>
+
+    <h2>Accepted / worth looking at</h2>
+    <section class="grid accepted">
+      <figure><img src="accepted/tactile-table-01.png"><figcaption>tactile-table-01</figcaption></figure>
+      <figure><img src="accepted/tactile-table-02.png"><figcaption>tactile-table-02</figcaption></figure>
+      <figure><img src="accepted/prepared-room-01.png"><figcaption>prepared-room-01</figcaption></figure>
+      <figure><img src="accepted/prepared-room-03-borderline.png"><figcaption>prepared-room-03-borderline</figcaption></figure>
+    </section>
+
+    <h2>Rejected / avoid patterns</h2>
+    <section class="grid rejected">
+      <figure><img src="rejected/question-notebook-01-glass-figures.png"><figcaption>glass/crystal figures</figcaption></figure>
+      <figure><img src="rejected/tactile-table-03-candle-generic.png"><figcaption>candle / generic beige</figcaption></figure>
+      <figure><img src="rejected/prepared-room-02-mystical-wall.png"><figcaption>mystical wall / smoke</figcaption></figure>
+      <figure><img src="rejected/booking-poster-01-fake-text-hands-candle.png"><figcaption>fake text / hands / candle</figcaption></figure>
+      <figure><img src="rejected/testimony-notes-01-fake-text.png"><figcaption>fake handwritten text</figcaption></figure>
+    </section>
+  </main>
+</body>
+</html>

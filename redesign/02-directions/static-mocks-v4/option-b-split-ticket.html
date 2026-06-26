@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rocío Ceverio</title>
+  <link rel="stylesheet" href="base.css" />
+  <style>
+    :root{
+      --ink:#16081f;
+      --paper:#fff7fb;
+      --mist:#f4e9ff;
+      --violet:#5b2df0;
+      --acid:#d7ff37;
+      --coral:#ff5b7d;
+      --blue:#0718a8;
+      --shadow:0 24px 70px rgba(22,8,31,.24);
+      --radius:32px;
+    }
+
+    body{
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 15% 4%, rgba(215,255,55,.8), transparent 24rem),
+        radial-gradient(circle at 88% 12%, rgba(255,91,125,.42), transparent 22rem),
+        linear-gradient(135deg, #faf3ff 0%, #fff7fb 46%, #ede7ff 100%);
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+
+    .page{width:min(1180px, calc(100% - 28px)); margin:0 auto; padding:18px 0 42px}
+
+    .topbar{
+      display:flex; align-items:center; justify-content:space-between; gap:14px;
+      padding:12px 0 22px;
+    }
+    .brand-wrap{display:grid; gap:2px}
+    .brand{font-size:1.05rem; letter-spacing:-.03em}
+    .subbrand{font-size:.76rem; font-weight:850; text-transform:uppercase; letter-spacing:.12em; color:rgba(22,8,31,.66)}
+    .nav{display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end}
+    .nav a{border:1px solid rgba(22,8,31,.14); border-radius:999px; padding:10px 13px; font-size:.86rem; font-weight:900; background:rgba(255,255,255,.42); backdrop-filter:blur(14px)}
+    .nav .primary{background:var(--ink); color:white; border-color:var(--ink)}
+
+    .hero{display:grid; gap:18px}
+
+    .editorial-card{
+      position:relative; overflow:hidden; border-radius:var(--radius); background:rgba(255,247,251,.74);
+      border:1px solid rgba(22,8,31,.12); box-shadow:var(--shadow);
+      padding:22px; min-height:620px; isolation:isolate;
+    }
+    .editorial-card:before{
+      content:""; position:absolute; inset:auto -70px -90px auto; width:210px; height:210px; border-radius:50%;
+      background:var(--acid); filter:blur(2px); z-index:-1;
+    }
+    .kicker{display:inline-flex; width:max-content; max-width:100%; color:white; background:var(--blue); border-radius:999px; padding:9px 12px; font-size:.78rem; font-weight:950; letter-spacing:.04em; text-transform:uppercase}
+    .h1{font-size:clamp(3.15rem, 15vw, 6.5rem); margin-top:28px; max-width:8.4ch; color:var(--ink)}
+    .lead{font-size:1.07rem; max-width:32rem; margin:18px 0 0; color:rgba(22,8,31,.76); font-weight:650}
+    .intro{font-size:1.02rem; line-height:1.55; max-width:35rem; margin:18px 0 0; color:rgba(22,8,31,.84)}
+    .cta-row{display:grid; gap:10px; margin-top:24px; max-width:390px}
+    .btn{border-radius:999px; padding:15px 18px; display:block; border:2px solid var(--ink); box-shadow:0 12px 0 var(--ink); transform:translateY(-4px)}
+    .btn-main{background:var(--acid); color:var(--ink)}
+    .btn-ghost{background:white; color:var(--ink)}
+
+    .photo-stack{position:absolute; right:16px; bottom:16px; width:min(54vw, 330px); display:grid; gap:12px; z-index:-1; opacity:.92}
+    .photo{border:9px solid white; box-shadow:0 18px 42px rgba(22,8,31,.22); background-size:cover; background-position:center; min-height:210px; border-radius:26px}
+    .photo.one{background-image:url("../../01-moodboard/accepted/tactile-table-01.png"); transform:rotate(3deg)}
+    .photo.two{background-image:url("../../01-moodboard/accepted/tactile-table-02.png"); min-height:155px; width:72%; justify-self:end; transform:rotate(-5deg)}
+
+    .ticket{
+      position:relative; overflow:hidden; border-radius:30px; color:white; background:linear-gradient(160deg, var(--violet), #a500ff 48%, var(--coral));
+      box-shadow:var(--shadow); border:1px solid rgba(255,255,255,.34);
+    }
+    .ticket:before,.ticket:after{content:""; position:absolute; left:50%; width:34px; height:34px; margin-left:-17px; border-radius:50%; background:var(--paper); z-index:2}
+    .ticket:before{top:-17px}.ticket:after{bottom:-17px}
+    .ticket-grid{display:grid}
+    .ticket-date{padding:24px; display:grid; gap:16px; border-bottom:2px dashed rgba(255,255,255,.52)}
+    .ticket-form{padding:22px; background:rgba(22,8,31,.22); display:grid; gap:12px}
+    .meta{font-size:.78rem; text-transform:uppercase; letter-spacing:.12em; color:rgba(255,255,255,.75)}
+    .date{font-size:clamp(2.4rem, 12vw, 5rem); line-height:.9; letter-spacing:-.06em; font-weight:950; max-width:7.2ch}
+    .ticket-note{font-size:.98rem; line-height:1.42; color:rgba(255,255,255,.82); margin:0}
+    .price-row{display:flex; gap:8px; flex-wrap:wrap}
+    .chip{border:1px solid rgba(255,255,255,.42); border-radius:999px; padding:9px 12px; font-weight:950; background:rgba(255,255,255,.14)}
+    .field{display:grid; gap:6px}
+    .field span{font-size:.76rem; font-weight:950; text-transform:uppercase; letter-spacing:.11em; color:rgba(255,255,255,.7)}
+    .input{height:48px; border-radius:16px; border:1px solid rgba(255,255,255,.45); background:rgba(255,255,255,.88)}
+    .reserve{border:0; border-radius:18px; background:var(--acid); color:var(--ink); padding:15px 16px; font:inherit; font-weight:950; box-shadow:0 10px 0 rgba(22,8,31,.78)}
+
+    .social{display:grid; gap:14px; margin-top:18px}
+    .social-card{border-radius:26px; background:rgba(255,255,255,.58); border:1px solid rgba(22,8,31,.12); padding:18px; display:grid; gap:14px; box-shadow:0 18px 46px rgba(22,8,31,.1)}
+    .social-card .meta{color:var(--blue)}
+    .link-list{display:grid; gap:9px}
+    .link-list a{display:flex; justify-content:space-between; gap:14px; border-radius:18px; padding:13px 14px; background:var(--ink); color:white; font-weight:950}
+    .link-list a:nth-child(even){background:var(--blue)}
+
+    @media(min-width:761px){
+      .page{padding-top:24px}
+      .topbar{padding-bottom:28px}
+      .hero{grid-template-columns:minmax(0,1.02fr) minmax(340px,.72fr); align-items:stretch; gap:24px}
+      .editorial-card{min-height:720px; padding:38px}
+      .h1{font-size:clamp(5.5rem, 9vw, 8.7rem)}
+      .lead{font-size:1.22rem; margin-top:26px}
+      .intro{font-size:1.12rem}
+      .cta-row{grid-template-columns:1fr 1fr; max-width:520px; margin-top:32px}
+      .photo-stack{right:34px; bottom:30px; width:360px}
+      .ticket{align-self:start; position:sticky; top:22px}
+      .ticket-date{min-height:430px; align-content:space-between; padding:34px}
+      .ticket-form{padding:28px}
+      .social{grid-template-columns:1fr 1fr; grid-column:1 / -1; margin-top:0}
+    }
+
+    @media(max-width:430px){
+      .page{width:min(100% - 22px, 1180px)}
+      .editorial-card{padding:18px; min-height:610px}
+      .photo-stack{width:68vw; right:-18px; bottom:18px; opacity:.62}
+      .photo{min-height:170px; border-width:7px}
+      .photo.two{min-height:120px}
+      .nav a{padding:9px 10px; font-size:.8rem}
+      .date{font-size:3.05rem}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand">Rocío Ceverio</div>
+        <div class="subbrand">Constelaciones familiares</div>
+      </div>
+      <nav class="nav" aria-label="Instagram Reservar">
+        <a href="#instagram">Instagram</a>
+        <a class="primary" href="#reservar">Reservar</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-label="Mobile preview Desktop preview">
+      <article class="editorial-card">
+        <div class="kicker">Constelaciones familiares en Mar del Plata</div>
+        <h1 class="h1">Mirar tu historia familiar con más claridad</h1>
+        <p class="lead">Desde 2012 facilitando espacios de constelaciones familiares.</p>
+        <p class="intro">Encuentros grupales y sesiones individuales para ordenar una pregunta, observar vínculos y darle lugar a lo que hoy pide atención.</p>
+        <div class="cta-row">
+          <a class="btn btn-main" href="#reservar">Reservar encuentro</a>
+          <a class="btn btn-ghost" href="#individual">Turno individual</a>
+        </div>
+        <div class="photo-stack" aria-hidden="true">
+          <div class="photo one"></div>
+          <div class="photo two"></div>
+        </div>
+      </article>
+
+      <aside class="ticket" id="reservar">
+        <div class="ticket-grid">
+          <section class="ticket-date">
+            <div>
+              <div class="meta">Próximo encuentro</div>
+              <div class="date">domingo, 12 de julio</div>
+            </div>
+            <div>
+              <p class="ticket-note">Reserva online con seña o pago total.</p>
+              <div class="price-row" aria-label="Seña $10.000 Total $25.000">
+                <span class="chip">Seña $10.000</span>
+                <span class="chip">Total $25.000</span>
+              </div>
+            </div>
+          </section>
+          <section class="ticket-form">
+            <div class="meta">Próximo encuentro grupal</div>
+            <label class="field"><span>Nombre</span><input class="input" aria-label="Nombre" /></label>
+            <label class="field"><span>WhatsApp</span><input class="input" aria-label="WhatsApp" /></label>
+            <button class="reserve">Reservar encuentro</button>
+          </section>
+        </div>
+      </aside>
+
+      <section class="social" id="instagram">
+        <article class="social-card">
+          <div class="meta">experiencias reales</div>
+          <div class="link-list">
+            <a href="#instagram">Ver testimonios en Instagram</a>
+            <a href="#instagram">Ver publicación acá</a>
+          </div>
+        </article>
+        <article class="social-card">
+          <div class="meta">Seguí las próximas fechas en Instagram</div>
+          <div class="link-list">
+            <a href="#instagram">Seguir a Rocío</a>
+            <a href="#instagram">Abrir reel</a>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Constelaciones · Design Lab</title>
+  <style>
+    :root{--bg:#111;--ink:#fff4df;--muted:#d8cbbd;--card:#1d1b18;--line:rgba(255,255,255,.14);--accent:#dff96a;--plum:#211323;--sea:#073441;--paper:#fff7e7;--coral:#e06f54}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:1180px;margin:auto;padding:42px 20px 90px}h1{font-size:clamp(42px,7vw,96px);line-height:.88;letter-spacing:-.055em;margin:0 0 16px}p{color:var(--muted);font-size:18px;line-height:1.5;max-width:820px}.hero{display:grid;gap:18px;margin-bottom:40px}.note{background:var(--plum);border:1px solid var(--line);border-radius:18px;padding:18px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:22px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:14px}.card h2{font-size:28px;line-height:1;letter-spacing:-.04em;margin:0}.slug{display:inline-flex;width:max-content;max-width:100%;background:#2b2925;border:1px solid var(--line);border-radius:999px;padding:6px 10px;font-weight:900;color:var(--accent);font-size:13px}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.links a{background:var(--accent);color:#111;text-decoration:none;border-radius:999px;padding:10px 13px;font-weight:950;font-size:14px}.links a.secondary{background:transparent;color:var(--ink);border:1px solid var(--line)}.section{margin-top:54px}.section h2{font-size:42px;letter-spacing:-.045em;line-height:1;margin:0}.small{font-size:15px}.tag{color:#111;background:var(--paper);border-radius:999px;padding:4px 8px;font-size:12px;font-weight:950}.v5a{background:linear-gradient(160deg,#211323,#1d1b18)}.v5b{background:linear-gradient(160deg,#073441,#1d1b18)}.v5c{background:linear-gradient(160deg,#4c2a52,#1d1b18)}@media(max-width:720px){main{padding:28px 12px 70px}.grid{grid-template-columns:1fr}h1{font-size:52px}}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <span class="tag">Design lab público</span>
+      <h1>Constelaciones · rediseño visual</h1>
+      <p>Galería para comparar alternativas del sitio público de Rocío. Los nombres son fijos para pedir cambios: “me gusta Costa Clara pero con más contraste”, “probá Ticket Editorial con otra imagen”, etc.</p>
+      <div class="note"><b>Regla de comparación:</b> las opciones V5 usan los mismos textos base y las mismas dos imágenes. Cambian paleta, layout, ritmo y composición.</div>
+    </section>
+
+    <section class="section">
+      <h2>Favoritas actuales, V5</h2>
+      <p class="small">Estas son las candidatas más refinadas para pedir opinión.</p>
+      <div class="grid">
+        <article class="card v5a">
+          <span class="slug">ticket-editorial</span>
+          <h2>Ticket Editorial</h2>
+          <p>Moderna y jugada. Reserva/evento como pieza protagonista.</p>
+          <div class="links">
+            <a href="redesign/02-directions/static-mocks-v5/v5-a-ticket-editorial.html">Abrir</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-a-ticket-editorial-mobile.png">Mobile</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-a-ticket-editorial-desktop.png">Desktop</a>
+          </div>
+        </article>
+        <article class="card v5b">
+          <span class="slug">costa-clara</span>
+          <h2>Costa Clara</h2>
+          <p>Fresca, clara y usable. Marino/celeste/ácido suave.</p>
+          <div class="links">
+            <a href="redesign/02-directions/static-mocks-v5/v5-b-coastal-editorial.html">Abrir</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-b-coastal-editorial-mobile.png">Mobile</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-b-coastal-editorial-desktop.png">Desktop</a>
+          </div>
+        </article>
+        <article class="card v5c">
+          <span class="slug">sala-papel</span>
+          <h2>Sala Papel</h2>
+          <p>Cálida y madura. Papeles/espacio táctil sin volver al sitio actual.</p>
+          <div class="links">
+            <a href="redesign/02-directions/static-mocks-v5/v5-c-paper-room.html">Abrir</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-c-paper-room-mobile.png">Mobile</a>
+            <a class="secondary" href="redesign/02-directions/static-mocks-v5/screenshots/v5-c-paper-room-desktop.png">Desktop</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Exploraciones anteriores</h2>
+      <div class="grid">
+        <article class="card"><span class="slug">v4-comparativa</span><h2>V4 completa</h2><p>5 opciones con el mismo contenido: Gallery Wall, Split Ticket, Coastal Card, Quiet Brutalist, Paper Stack.</p><div class="links"><a href="redesign/02-directions/static-mocks-v4/gallery.html">Abrir galería</a></div></article>
+        <article class="card"><span class="slug">v3-layouts</span><h2>V3 layouts</h2><p>Photo Stage, Folded Ledger, Soft Index e Image Ribbon.</p><div class="links"><a href="redesign/02-directions/static-mocks-v3/gallery.html">Abrir galería</a></div></article>
+        <article class="card"><span class="slug">v2-fresca</span><h2>V2 fresca</h2><p>Ink Table, Clay Ledger y Coastal Object.</p><div class="links"><a href="redesign/02-directions/static-mocks-v2/gallery.html">Abrir galería</a></div></article>
+        <article class="card"><span class="slug">moodboard</span><h2>Moodboard</h2><p>Primeras imágenes aceptadas/rechazadas que guiaron las opciones.</p><div class="links"><a href="redesign/01-moodboard/gallery.html">Abrir moodboard</a></div></article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "option-a-gallery-wall",
+    "title": "A · Gallery wall",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-a-gallery-wall-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2800
+  },
+  {
+    "file": "option-a-gallery-wall",
+    "title": "A · Gallery wall",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-a-gallery-wall-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 2370
+  },
+  {
+    "file": "option-b-split-ticket",
+    "title": "B · Split ticket",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-b-split-ticket-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 1820
+  },
+  {
+    "file": "option-b-split-ticket",
+    "title": "B · Split ticket",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-b-split-ticket-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1276
+  },
+  {
+    "file": "option-c-coastal-card",
+    "title": "C · Coastal card",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-c-coastal-card-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2362
+  },
+  {
+    "file": "option-c-coastal-card",
+    "title": "C · Coastal card",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-c-coastal-card-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1740
+  },
+  {
+    "file": "option-d-quiet-brutalist",
+    "title": "D · Quiet brutalist",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-d-quiet-brutalist-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2013
+  },
+  {
+    "file": "option-d-quiet-brutalist",
+    "title": "D · Quiet brutalist",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-d-quiet-brutalist-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1911
+  },
+  {
+    "file": "option-e-paper-stack",
+    "title": "E · Paper stack",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-e-paper-stack-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2320
+  },
+  {
+    "file": "option-e-paper-stack",
+    "title": "E · Paper stack",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v4\\screenshots\\option-e-paper-stack-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1222
+  }
+]

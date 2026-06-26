@@ -1,0 +1,74 @@
+[
+  {
+    "file": "v5-a-ticket-editorial",
+    "title": "A · Ticket editorial",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-a-ticket-editorial-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2570
+  },
+  {
+    "file": "v5-a-ticket-editorial",
+    "title": "A · Ticket editorial",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-a-ticket-editorial-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1526
+  },
+  {
+    "file": "v5-b-coastal-editorial",
+    "title": "B · Coastal editorial",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-b-coastal-editorial-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2635
+  },
+  {
+    "file": "v5-b-coastal-editorial",
+    "title": "B · Coastal editorial",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-b-coastal-editorial-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1544
+  },
+  {
+    "file": "v5-c-paper-room",
+    "title": "C · Paper room",
+    "viewport": "mobile",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-c-paper-room-mobile.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 2417
+  },
+  {
+    "file": "v5-c-paper-room",
+    "title": "C · Paper room",
+    "viewport": "desktop",
+    "screenshot": "C:\\dev\\constelaciones\\.impeccable\\explorations\\2026-06-24-public-site-redesign\\02-directions\\static-mocks-v5\\screenshots\\v5-c-paper-room-desktop.png",
+    "errors": [],
+    "h1": "Mirar tu historia familiar con más claridad",
+    "overflowX": false,
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 1415
+  }
+]
